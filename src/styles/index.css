@@ -10,3 +10,106 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: black;
+}
+
+.navbar{
+
+    background-color: black;
+    color: white;
+}
+
+.nav-link{
+    margin-right: 100px;
+
+
+}
+
+
+.carousel-item{
+    width: 300px;
+    height: 500px;
+    
+  }
+#foto1{
+    width: 1500px;
+    height: 690px;
+}
+
+#foto2{
+    width: 1500px;
+    height: 690px;
+}
+
+#foto3{
+    width: 1500px;
+    height: 690px;
+}
+
+.h1{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+color: orange;
+text-shadow: 0 0 25px rgb(255, 153, 0);
+}
+
+.card-body{
+    height: 200px;
+    background-color: black ;
+    color: orange;
+text-shadow: 0 0 25px rgb(255, 153, 0);
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.card-footer{
+    background-color: black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow__btn {
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: orange;
+    box-shadow: 0 0 25px rgb(255, 153, 0);
+  }
+
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255, 153, 0), 0 0 25px rgb(255, 153, 0),
+      0 0 50px rgb(255, 153, 0), 0 0 100px rgb(255, 153, 0);
+  }
+
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: orange;
+    margin-right: 10px;
+  }
+
+footer nav a:hover{
+    color: orange;
+  }
